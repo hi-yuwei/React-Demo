@@ -1,0 +1,32 @@
+$themeColor: #ea6f5a;
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 0 18px;
+    height: 48px;
+    .logo {
+        width: 56px;
+        height: 42px;
+    }
+    .search {
+        flex: 1;
+        padding: 0 20px;
+        input {
+            width: 100%;
+        }
+    }
+    .download {
+        height: 30px;
+        line-height: 30px;
+        padding: 0 14px;
+
+        font-size: 14px;
+        color: #fff;
+        background-color: $themeColor;
+
+        border-radius: 15px;
+    }
+}
